@@ -149,7 +149,7 @@
             <OnStateName>Povolené</OnStateName>
             <OffStateName>Blokované</OffStateName>
             <ReadSwitchState>MODBUSR(H, 4, Int16)</ReadSwitchState>
-            <WriteSwitchState>MODBUSR(H, 4, Int16, St)</WriteSwitchState>
+            <WriteSwitchState>MODBUSW(H, 4, Int16, St)</WriteSwitchState>
           </DeviceProperties>
         </Device>
         <Device>
